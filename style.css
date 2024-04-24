@@ -1,0 +1,84 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(https://wallpaperset.com/w/full/6/e/a/29.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: fit-content;
+}
+.container{
+    display: flex;
+    height: 100vh;
+    width: fit-content;
+    margin-top: 5px;
+}
+.header
+{
+    list-style-type: none;
+    text-decoration: none;
+    color: rgb(181, 226, 45);
+    font-size: 20px;
+    font-weight: 700;
+    padding-left: 15px;
+}
+.tabs{
+    position: absolute;
+    display:table-cell;
+    width: 30%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+}
+.scont{
+    position: absolute;
+    width: 100%;
+    height: 300px;
+    align-items: center;
+    background-color: transparent;
+    margin-top: 200px;
+    margin-left: 500px;
+}
+input{
+    display: block;
+    width: 400px;
+    margin: 25px 13px;
+    padding: 10px;
+    font-size: 15px;
+    color: rgb(24, 21, 21);
+    border-radius: 8px;
+    outline: 2px solid white;
+}
+input[type='submit']
+{
+    background-color: rgb(56, 83, 237);
+    margin-left: 25px;
+}
+h2
+{
+    margin-left: 155px;
+    margin-top: 3px;
+}
+.common
+{
+    position:absolute;
+    visibility: hidden;
+}
+#register
+{
+    visibility: visible;
+}
+.fp
+{
+    color: white;
+    margin-left: 10px;
+    font-size: 20px;
+}
+.fp:hover{
+    color: rgb(10, 168, 220);
+}
